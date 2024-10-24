@@ -10,7 +10,7 @@ body{
   height: 650px;
   border:5px solid black;
   margin:0 auto;
-  background-color: #5439a5;
+  background-color: #5439a5; /* changed to avoid errors in WAVE check */
   background-image: url('');
   background-repeat: no-repeat;
   color:#FFFFFF;
@@ -32,6 +32,6 @@ img{
   margin-bottom: 2%;
   text-align: center;
   font-size: 200%;
-  color: rgb(17, 85, 15);
+  color: rgb(17, 85, 15); /* changed to avoid errors in WAVE check */
   visibility: hidden;
 }
